@@ -1,4 +1,2 @@
-# jfrog_cli
-
-TODO: Enter the cookbook description here.
-
+# chef-jfrog-cli
+Cookbook to install jfrog cli
