@@ -6,7 +6,7 @@
 
 url = "#{node['jfrog']['cli']['url']['root']}/"
 
-if node['kernel']['name'] == 'linux'
+if node['kernel']['name'] == 'Linux'
   case node['kernel']['machine']
   when 'x86_64'
     url += node['jfrog']['cli']['url']['linux_amd64']
